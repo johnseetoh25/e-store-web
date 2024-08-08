@@ -1,0 +1,18 @@
+.navbar-layout{
+    background: #0084ff;
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page-link-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+
+

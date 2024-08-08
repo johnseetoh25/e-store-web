@@ -1,0 +1,11 @@
+.container{
+    color: white;
+    background: transparent;
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+.active{
+    color: black;
+    background: white;
+}
