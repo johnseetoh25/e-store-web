@@ -6,8 +6,7 @@ const Navbar = () => {
     const pageLinkList = [
         { title: 'Home', path: '/' },
         { title: 'Product', path: '/products' },
-        { title: 'Cart', path: '/cart' },
-        { title: 'blog', path: '/blog'}
+        { title: 'Cart', path: '/cart' }
     ];
 
   return (

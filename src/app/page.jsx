@@ -1,9 +1,15 @@
-import Image from "next/image";
+import './homepage.css'
 
 export default function Home() {
   return (
     <div>
-      <h1>Home Page</h1>
+      <header>
+        <h1>Header</h1>
+      </header>
+      <div className="promotion-layout">
+        
+      </div>
+
     </div>
   );
 }

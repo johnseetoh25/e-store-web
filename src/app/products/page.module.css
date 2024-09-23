@@ -1,0 +1,7 @@
+.products_grid_layout{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 30px;
+}
+
