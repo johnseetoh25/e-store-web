@@ -1,0 +1,4 @@
+.product_detail_page_layout{
+    display: flex;
+    flex-direction: row;
+}

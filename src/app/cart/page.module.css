@@ -1,0 +1,31 @@
+.cart_page_layout{
+    margin: 50px 100px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 50px;
+
+}
+
+/* cart table style */
+.cart_table_layout{
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.product_details_layout{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.product_image{
+    width: 200px;
+    aspect-ratio: 1;
+}
+
+/* cart information styles */
+.cart_information_layout{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+}

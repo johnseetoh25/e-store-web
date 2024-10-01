@@ -1,12 +1,13 @@
 import React from 'react'
 import "./navbar.css"
 import NavLink from './navlink';
+import Link from 'next/link';
 
 const Navbar = () => {
     const pageLinkList = [
         { title: 'Home', path: '/' },
         { title: 'Product', path: '/products' },
-        { title: 'Cart', path: '/cart' }
+        { title: 'Cart', path: '/cart' },
     ];
 
   return (
@@ -16,6 +17,7 @@ const Navbar = () => {
         {pageLinkList.map((pageLink) => (
             <NavLink linkItem={pageLink} key={pageLink.title}/>
         ))}
+        
       </div>
     </div>
   )

@@ -26,6 +26,12 @@ body {
   color: var(--text-color);
 }
 
+/* table style */
+td{
+  border: 1px solid #eee;
+  padding: 1rem 2rem;
+}
+
 
 @layer utilities {
   .text-balance {

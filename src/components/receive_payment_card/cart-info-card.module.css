@@ -1,0 +1,9 @@
+/* Received Address */
+.receive_address_card_layout{
+    width: 100%;
+    box-shadow: 0px 1px 10px 0px rgba(25, 25, 25, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Payment Method */
